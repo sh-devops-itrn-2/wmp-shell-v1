@@ -2,7 +2,7 @@ dnf install -y java-21-openjdk-devel
 
 useradd -r -s /bin/false appuser
 
-cp portfolio-service /etc/systemd/system/portfolio-service.service
+cp portfolio-service.service /etc/systemd/system/portfolio-service.service
 
 mkdir -p /app
 
